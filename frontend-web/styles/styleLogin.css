@@ -1,0 +1,68 @@
+#loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    flex-direction: column;
+}
+
+#logo-form{
+    width: 75px;
+    border-radius: 5%;
+    margin-bottom: 35px;
+}
+
+.navbar-transparente{
+    background: #f20770;
+}
+body{
+    background: black;
+}
+.textinput{
+    width: 300px;
+    height: 55px;
+    background: silver;
+    border-style: none;
+    margin: 1px;
+}
+#loginform button{
+    margin-top: 50px;
+    width: 95px;
+    height: 45px;
+    background: #f20770;
+    border-style: none;
+}
+.space{
+    margin-bottom:45px;
+}
+/* TYPOGRAPHY */
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:50px;
+}
+.insidebutton{
+    color:#f20770;
+}
+#loginform a{
+    margin-top: 35px;
+    color: white;
+}
+span{
+    color:#f20770;
+}
+
+#link-custom{
+    color: white;
+}
+#link-custom:hover{
+    color:silver;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
