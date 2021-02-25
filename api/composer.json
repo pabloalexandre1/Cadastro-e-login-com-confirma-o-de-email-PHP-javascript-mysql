@@ -1,0 +1,27 @@
+{
+    "name": "pablo/apiphpp",
+    "description": "api to my fantasy game",
+    "type": "api",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Pablo barros",
+            "email": "pablo.umburana2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "app/"
+        },
+        "files":[
+            "app/config.php",
+            "app/classes.php"
+        ]
+    },
+    "require": {
+        "league/oauth2-facebook": "2.0.*",
+        "phpmailer/phpmailer": "6.0.7"
+    }
+    
+}
